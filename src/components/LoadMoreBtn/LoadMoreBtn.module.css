@@ -1,0 +1,27 @@
+/* LoadMoreBtn.module.css */
+.loadMoreContainer {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+  }
+  
+  .loadMoreBtn {
+    padding: 12px 30px;
+    background-color: #3f51b5;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .loadMoreBtn:hover {
+    background-color: #303f9f;
+    transform: translateY(-2px);
+  }
+  
+  .loadMoreBtn:active {
+    transform: translateY(0);
+  }
