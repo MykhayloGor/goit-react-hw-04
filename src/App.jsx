@@ -10,7 +10,6 @@ import ImageModal from "./components/ImageModal/ImageModal";
 import { fetchImages } from "./services/api";
 import "./App.css";
 
-// Set the app element for accessibility
 Modal.setAppElement("#root");
 
 const App = () => {

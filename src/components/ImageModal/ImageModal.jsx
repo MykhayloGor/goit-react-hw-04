@@ -1,5 +1,5 @@
 import Modal from "react-modal";
-import s from "./ImageModal.module.css"; // Make sure this matches your actual file name
+import s from "./ImageModal.module.css"; 
 
 const ImageModal = ({ isOpen, onClose, image }) => {
   if (!image) return null;
